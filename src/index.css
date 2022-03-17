@@ -1,13 +1,40 @@
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url(../public/font/Ubuntu-Medium.ttf)
+}
+/* 全局css变量 */
+:root {
+  --base-bgc: #f2f2f2;
+  --import-color: #e91e63;
+  --base-text-color: #2b2e4a;
+}
+.importtext{
+  display: inline-block;
+  margin: 2rem;
+  color: var(--import-color);
+  transform: scale(1.1);
+  transform-origin: center bottom;
+}
+.basecolor{
+  background-color: var(--base-text-color);
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Ubuntu', 'Ubuntu-Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    word-break: keep-all;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--base-bgc);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
 }
