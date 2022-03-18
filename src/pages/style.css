@@ -1,0 +1,21 @@
+.ace-tm{
+  background-color: rgba(1, 1, 1, 0);
+}
+.ace_line{
+  font-weight: 700;
+  color: white;
+}
+.card{
+  background-color: #3E405B;
+}
+.snip{
+  background-color: #323347;
+}
+.snipbtn{
+  background: linear-gradient(180deg, #5561FF 0%, #3643FC 100%, #3643FC 100%);
+  border-radius: 12px;
+  transition-duration: .3;
+}
+.snipbtn:active{
+  transform: scale(1.2);
+}
