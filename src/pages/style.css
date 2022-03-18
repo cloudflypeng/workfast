@@ -9,6 +9,7 @@
   background-color: #3E405B;
 }
 .snip{
+  overflow: auto;
   background-color: #323347;
 }
 .snipbtn{
