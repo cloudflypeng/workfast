@@ -5,7 +5,11 @@
   font-weight: 700;
   color: white;
 }
+.ace_scrollbar{
+  width: 0;
+}
 .card{
+  flex: 1;
   background-color: #3E405B;
 }
 .snip{

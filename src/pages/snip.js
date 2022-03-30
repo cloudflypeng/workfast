@@ -40,7 +40,7 @@ const Snip = () => {
         <div className="card w-2/3 py-5 rounded-3xl overflow-hidden ">
           <AceEditor
             placeholder={text}
-            style={{ width: '100%' }}
+            style={{ width: '100%', height: '100%' }}
             mode="json"
             theme="monikai"
             name="Editor"
@@ -65,7 +65,7 @@ const Snip = () => {
           <AceEditor
             readOnly={true}
             value={target}
-            style={{ width: '100%' }}
+            style={{ width: '100%', height : '300px' }}
             mode="json"
             theme="monikai"
             name="Editor"
