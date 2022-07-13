@@ -3,6 +3,9 @@
   font-family: Ubuntu-Medium;
   src: url(../public/font/Ubuntu-Medium.ttf)
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* 全局css变量 */
 :root {
   --base-bgc: #f2f2f2;
